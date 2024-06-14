@@ -28,10 +28,10 @@ main {
 .about-text p {
     font-size: 17px;
     font-family: 'Cormorant', serif;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .about-stuff {
-    margin-top: 50px;
+    margin-top: 150px;
 }
