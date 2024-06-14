@@ -27,8 +27,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
     text-align: center;
+    color: #ffffff;
     z-index: 1;
 }
 
@@ -72,7 +72,7 @@ main {
 
 .home-link-one a, .home-link-two a, .home-link-three a {
     text-decoration: none;
-    color: #ffffff;
     font-size: 30px;
     font-family: 'Cormorant', serif;
+    color: #ffffff;
 }
