@@ -1,0 +1,19 @@
+.home-link-one a:hover {
+    color: #00ddff;
+}
+
+.home-link-two a:hover {
+    color: #00ff2e;
+}
+
+.home-link-three a:hover {
+    color: #ff00e4;
+}
+
+#home-info-header h1:hover {
+    color: #9800ff;
+}
+
+#home-info-header p:hover {
+    color: #ff1900;
+}
