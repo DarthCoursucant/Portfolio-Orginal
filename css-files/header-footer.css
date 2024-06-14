@@ -89,9 +89,26 @@ header {
   }
 
   .footer-container-two h1 {
-    margin-left: 20px;
+    margin-left: 70px;
   }
 
   .footer-container-two img {
-    margin-left: 30px;
+    margin-top: 60px;
+  }
+  
+  .linkding-footer img {
+    margin-left: -280px;
+  }
+
+  .instagram-footer img {
+    margin-left: -130px;
+  }
+
+  .x-footer img {
+    margin-left: -10px;
+  }
+
+  .footer-container-two {
+    display: flex;
+    margin-left: 50px;
   }
