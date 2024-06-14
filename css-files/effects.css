@@ -1,19 +1,19 @@
-.home-link-one a:hover {
+.home-link-one a:hover, .name-header a:hover, .footer-container-one h1:hover {
     color: #00ddff;
 }
 
-.home-link-two a:hover {
+.home-link-two a:hover, #index-footer a:hover {
     color: #00ff2e;
 }
 
-.home-link-three a:hover {
+.home-link-three a:hover, #about-header a:hover, #about-footer a:hover {
     color: #ff00e4;
 }
 
-#home-info-header h1:hover {
+#home-info-header h1:hover, #projects-header a:hover, #contact-footer a:hover {
     color: #9800ff;
 }
 
-#home-info-header p:hover {
+#home-info-header p:hover, #contact-header a:hover, #project-footer a:hover {
     color: #ff1900;
 }
