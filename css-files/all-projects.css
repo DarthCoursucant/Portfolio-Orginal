@@ -66,3 +66,13 @@ main {
 .product-image:hover img {
     transform: scale(1.5, 1.5);
 }
+
+.project-info-container {
+    background-color: #ffffff;
+}
+
+#project-header h1 {
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+}
