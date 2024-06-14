@@ -2,7 +2,7 @@
     color: #00ddff;
 }
 
-.home-link-two a:hover, #index-footer a:hover {
+.home-link-two a:hover, #index-footer a:hover, .footer-container-two h1:hover {
     color: #00ff2e;
 }
 
