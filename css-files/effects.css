@@ -1,8 +1,8 @@
-.home-link-one a:hover, .name-header a:hover, .footer-container-one h1:hover, .contact-container h1:hover {
+.home-link-one a:hover, .name-header a:hover, .footer-container-one h1:hover, .contact-container h1:hover, #contact-header h1:hover {
     color: #00ddff;
 }
 
-.home-link-two a:hover, #index-footer a:hover, .footer-container-two h1:hover {
+.home-link-two a:hover, #index-footer a:hover, .footer-container-two h1:hover, #contact-text p:hover {
     color: #00ff2e;
 }
 
