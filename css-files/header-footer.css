@@ -1,0 +1,97 @@
+header {
+    float: left;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.244);
+    box-shadow: 2px 2px 10px 2px rgba(2, 101, 19, 0.154);
+    backdrop-filter: blur(50px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 130px;
+    z-index: 999;
+  }
+
+  .header-container {
+    display: flex;
+  }
+
+  .name-header {
+    margin-left: 600px;
+    margin-top: 10px;
+  }
+
+  .name-header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 50px;
+  }
+
+  #about-header, #projects-header, #contact-header {
+    margin-top: 80px;
+  }
+
+  #about-header {
+    margin-left: -330px;
+  }
+
+  #projects-header {
+    margin-left: 50px;
+  }
+
+  #contact-header {
+    margin-left: 50px;
+  }
+
+  #about-header a, #projects-header a, #contact-header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  footer {
+    float: left;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.244);
+    box-shadow: 2px 2px 10px 2px rgba(2, 101, 19, 0.154);
+    backdrop-filter: blur(50px);
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    z-index: 999;
+    bottom: 0;
+  }
+
+  .whole-footer-container {
+    display: flex;
+    margin-left: 350px;
+  }
+
+  .whole-footer-container h1 {
+    font-size: 25px;
+    color: #ffffff;
+  }
+
+  .whole-footer-container a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .footer-container-one {
+    width: 400px;
+    text-align: center;
+  }
+  
+  .footer-container-two {
+    width: 500px;
+    text-align: center;
+  }
+
+  .footer-container-two h1 {
+    margin-left: 20px;
+  }
+
+  .footer-container-two img {
+    margin-left: 30px;
+  }
