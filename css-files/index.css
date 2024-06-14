@@ -1,3 +1,14 @@
+.gwendolyn-regular {
+    font-family: "Gwendolyn", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .gwendolyn-bold {
+    font-family: "Gwendolyn", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
 
 body {
     margin: 0;
@@ -22,7 +33,46 @@ main {
 }
 
 .line {
-    width: 500px;
+    width: 1000px;
     height: 2px; /* Adjust height as needed */
-    background-color: #ffffff; /* Change color as needed */
+    background-color: #fffa00; /* Change color as needed */
+}
+
+.home-info-stuff {
+    margin-top: 200px;
+}
+
+#home-info-header h1 {
+    font-size: 80px;
+    font-family: 'Gwendolyn', cursive;
+}
+
+#home-info-header p {
+    font-size: 50px;
+    margin-top: -40px;
+    font-family: 'Cormorant', serif;
+}
+
+.home-link-container {
+    display: flex;
+}
+
+.home-link-one, .home-link-two, .home-link-three {
+    width: 250px;
+    margin-top: 25px;
+}
+
+.home-link-one {
+    margin-left: 50px;
+}
+
+.home-link-two, .home-link-three {
+    margin-left: 75px;
+}
+
+.home-link-one a, .home-link-two a, .home-link-three a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Cormorant', serif;
 }
