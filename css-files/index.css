@@ -107,3 +107,71 @@ main {
       margin-left: 90px;
     }
   }
+
+  /*MAX WITH 1000PX*/
+  @media (max-width: 1000px) {
+    .line {
+        width: 800px;
+        margin-left: 140px;
+      }
+  }
+
+  /*MAX WITH 900PX*/
+  @media (max-width: 900px) {
+    .line {
+        width: 700px;
+        margin-left: 260px;
+      }
+    
+     #home-info-header h1 {
+      margin-left: 240px;
+      font-size: 50px;
+    }
+    
+    #home-info-header p {
+      font-size: 30px;
+      margin-left: 220px;
+    }
+    
+    .home-link-container a {
+        font-size: 20px;
+      }
+      
+      .home-link-one {
+        margin-left: 300px;
+        width: 300px;
+      }
+  }
+  
+  /*MAX WITH 800PX*/
+  @media (max-width: 800px) {
+    .line {
+        width: 600px;
+        margin-left: 320px;
+      }
+    
+    #home-info-header h1 {
+      margin-left: 280px;
+    }
+    
+     #home-info-header p {
+      margin-left: 250px;
+    }
+    
+    .home-link-container a {
+        font-size: 17px;
+      }
+    
+    .home-link-one {
+        margin-left: 300px;
+        width: 370px;
+      }
+    
+    .home-link-two {
+      margin-left: 20px;
+    }
+    
+    .home-link-three {
+      margin-left: 30px;
+    }
+  }
