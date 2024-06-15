@@ -98,11 +98,12 @@ main {
     }
     
     .home-link-one {
-      margin-left: 160px;
+      margin-left: 200px;
+      width: 300px;
     }
     
     .line {
       width: 900px;
-      margin-left: 40px;
+      margin-left: 90px;
     }
   }
