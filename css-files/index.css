@@ -175,3 +175,38 @@ main {
       margin-left: 30px;
     }
   }
+
+  /*MAX WITH 700PX*/
+  @media (max-width: 700px) {
+    .line {
+        width: 500px;
+        margin-left: 210px;
+      }
+    
+     #home-info-header h1 {
+      margin-left: 200px;
+       font-size: 40px;
+    }
+    
+     #home-info-header p {
+      margin-left: 200px;
+       font-size: 25px;
+    }
+    
+    .home-link-container a {
+          font-size: 15px;
+        }
+    
+    .home-link-two {
+        margin-left: -40px;
+      }
+      
+      .home-link-three {
+        margin-left: -30px;
+      }
+    
+    .home-link-one {
+          margin-left: 200px;
+          width: 340px;
+        }
+  }
