@@ -185,3 +185,43 @@ header {
     margin-left: -25px;
   }
 }
+
+/*MAX WITH 600PX*/
+@media (max-width: 600px) {
+  .name-header {
+    margin-left: 200px;
+    padding-top: 20px;
+  }
+  
+  .name-header a {
+    font-size: 30px;
+  }
+  
+  #about-header a, #projects-header a, #contact-header a {
+    font-size: 17px;
+  }
+  
+  #about-header {
+    margin-left: -230px;
+  }
+  
+  .footer-container-one {
+    margin-left: -380px;
+  }
+  
+  .footer-container-two {
+    margin-left: -50px;
+  }
+  
+  .whole-footer-container h1 {
+    font-size: 20px;
+  }
+  
+  .whole-footer-container a {
+    font-size: 15px;
+  }
+  
+  .linkding-footer {
+    margin-left: 20px;
+  }
+}
