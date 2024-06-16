@@ -135,3 +135,38 @@ header {
     margin-left: -250px;
   }
 }
+
+/*MAX WITH 900PX*/
+@media (max-width: 900px) {
+  .name-header {
+    margin-left: 300px;
+    padding-top: 10px;
+  }
+  
+  .name-header a {
+    font-size: 40px;
+  }
+  
+  #about-header a, #projects-header a, #contact-header a {
+    font-size: 20px;
+  }
+  
+  #about-header {
+    margin-left: -280px;
+  }
+  
+  .footer-container-one {
+    margin-left: -290px;
+  }
+}
+
+/*MAX WITH 800PX*/
+@media (max-width: 800px) {
+  .footer-container-one {
+    margin-left: -330px;
+  }
+  
+  .footer-container-two {
+    margin-left: -10px;
+  }
+}
