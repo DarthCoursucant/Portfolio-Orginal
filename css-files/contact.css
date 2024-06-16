@@ -58,3 +58,21 @@ main {
 .contact-info {
     margin-top: -70px;
 }
+
+/*MAX WITH 1000PX*/
+@media (max-width: 1000px) {
+    .options-contact-me {
+      margin-left: 175px;
+    }
+  }
+
+  /*MAX WITH 900PX*/
+@media (max-width: 900px) {
+    #contact-text p {
+      font-size: 17px;
+    }
+    
+    .options-contact-me {
+      margin-left: 155px;
+    }
+  }
