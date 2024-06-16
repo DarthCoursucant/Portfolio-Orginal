@@ -102,3 +102,10 @@ main {
       padding-right: 10px;
     }
   }
+
+/*MAX WITH 550PX*/
+@media (max-width: 550px) {
+    .options-contact-me {
+      margin-left: 60px;
+    }
+  }
