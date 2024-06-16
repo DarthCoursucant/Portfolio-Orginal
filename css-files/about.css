@@ -35,3 +35,26 @@ main {
 .about-stuff {
     margin-top: 150px;
 }
+
+/*MAX WITH 1100PX*/
+@media (max-width: 1100px) {
+    .about-header h1{
+      margin-top: -10px;
+    }
+    
+    .about-text {
+      margin-bottom: 200px;
+    }
+  }
+  
+/*MAX WITH 1000PX*/
+@media (max-width: 1000px) {
+    .about-text p {
+      font-size: 15px;
+    }
+    
+    .about-header h1 {
+      font-size: 25px;
+      margin-top: 20px;
+    }
+  }
