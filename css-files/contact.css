@@ -83,3 +83,22 @@ main {
       margin-left: 125px;
     }
   }
+
+/*MAX WITH 700PX*/
+@media (max-width: 700px) {
+    .options-contact-me {
+      margin-left: 100px;
+    }
+  }
+
+/*MAX WITH 600PX*/
+@media (max-width: 600px) {
+    .options-contact-me {
+      margin-left: 70px;
+    }
+    
+    #contact-text p {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
