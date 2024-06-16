@@ -211,7 +211,6 @@ main {
         }
   }
 
-
   /*MAX WITH 600PX*/
   @media (max-width: 600px) {
     .line {
@@ -247,4 +246,16 @@ main {
           margin-left: 200px;
           width: 300px;
         }
+  }
+
+  /*MIN WITH 1100PX*/
+  @media (min-width: 1400px) {
+    #home-info-header h1 {
+      font-size: 90px;
+  }
+    
+    #home-info-header p {
+      font-size: 60px;
+      margin-top: -40px;
+  }
   }
