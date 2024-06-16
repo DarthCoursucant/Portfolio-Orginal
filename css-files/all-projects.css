@@ -66,14 +66,7 @@ main {
 	animation: chan-sh 6s ease infinite;
 }
 
-.hint-star {
-	display: inline-block;
-	margin-left: 0.5em;
-	color: gold;
-	width: 50%;
-}
-
-#container-one .product-details > p, #container-two .product-details > p, #container-three .product-details > p{
+#container-one .product-details > p, #container-two .product-details > p, #container-three .product-details > p {
 	text-align: center;
 	font-size: 18px;
 	color: #7d7d7d;
@@ -94,6 +87,7 @@ main {
 	left: 22.8%;
 	
 }
+
 .button-repo-project, .button-pages-project {
 	transform: translateY(0px);
 	transition: 0.3s linear;
@@ -165,16 +159,85 @@ main {
     top: 0;
 }
 
-.info h2 {text-align: center}
-.product-image:hover .info{transform: translateX(0);}
+.info h2 {
+	text-align: center
+}
 
-.info ul li{transition: 0.3s ease;}
-.info ul li:hover{transform: translateX(50px) scale(1.3);}
+.product-image:hover .info{
+	transform: translateX(0);
+}
 
-.product-image:hover img {transition: all 0.3s ease-out;}
-.product-image:hover img {transform: scale(1.2, 1.2);}
+.info ul li{
+	transition: 0.3s ease;
+}
+
+.info ul li:hover{
+	transform: translateX(50px) scale(1.3);
+}
+
+.product-image:hover img {
+	transition: all 0.3s ease-out;
+}
+
+.product-image:hover img {
+	transform: scale(1.2, 1.2);
+}
 
 .project-display-container {
     margin-top: 70px;
     margin-bottom: 130px;
 }
+
+/*MAX WITH 750PX*/
+@media (max-width: 750px) {
+  
+	#container-one, #container-two, #container-three {
+	  width: 600px;
+	}
+  }
+  
+  /*MAX WITH 650PX*/
+  @media (max-width: 650px) {
+	#container-one, #container-two, #container-three {
+	  width: 500px;
+	}
+  }
+  
+  /*MAX WITH 550PX*/
+  @media (max-width: 550px) {
+	#container-one, #container-two, #container-three {
+	  width: 400px;
+	}
+	
+	#container-one .product-details > h1, #container-two .product-details > h1, #container-three .product-details > h1 {
+	  font-size: 15px;
+	  width: 150px;
+	  text-align: center;
+	}
+	
+	#container-one .product-details > p, #container-two .product-details > p, #container-three .product-details > p {
+	  font-size: 13px;
+	  margin-left: 25px;
+	}
+	
+	.product-details {
+	  margin-left: -30px;
+	}
+	
+	#container-two .product-details > h1 {
+	  margin-left: 30px;
+	}
+	
+	#container-two .product-details > p {
+	  margin-left: 20px:
+	}
+	
+	.info ul li:hover{
+	  transform: translateX(-20px) scale(0.9);
+  }
+	
+	.info h2 {
+	  text-align: center;
+	  font-size: 20px;
+  }
+  }
