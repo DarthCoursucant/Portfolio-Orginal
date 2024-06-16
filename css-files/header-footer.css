@@ -170,3 +170,18 @@ header {
     margin-left: -10px;
   }
 }
+
+/*MAX WITH 700PX*/
+@media (max-width: 700px) {
+  .name-header {
+    margin-left: 230px;
+  }
+  
+  .footer-container-one {
+    margin-left: -350px;
+  }
+  
+  .footer-container-two {
+    margin-left: -25px;
+  }
+}
